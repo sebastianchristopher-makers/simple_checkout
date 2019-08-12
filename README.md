@@ -47,6 +47,8 @@ TDD
 
 Feature test again
 
+\#Scan is a feature of Checkout, passed the item as an arg. Scan returns subtotal rather than prints it.
+
 ### Feature test:
 ```
 Makerss-MacBook-Pro-2:simple_checkout student$ irb
