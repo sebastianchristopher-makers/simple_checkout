@@ -41,14 +41,10 @@ You will discuss your approach with a coach, describing your TDD process, and wi
 ```
 Makerss-MacBook-Pro-2:simple_checkout student$ irb
 2.6.3 :001 > checkout = Checkout.new
-  NameError (uninitialized constant Checkout)
 2.6.3 :002 > fruit = Item.new(0.5)
-  NameError (uninitialized constant Item)
 2.6.3 :003 > bread = Item.new(1.2)
-  NameError (uninitialized constant Item)
 2.6.3 :004 > bread.price
   # => £1.22
-  NoMethodError (undefined method `price' for nil:NilClass)
 2.6.3 :005 > checkout.scan(bread)
   # => Total: £1.22
 2.6.3 :006 > checkout.scan(fruit)

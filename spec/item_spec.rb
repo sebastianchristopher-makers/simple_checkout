@@ -5,6 +5,6 @@ describe Item do
   let(:bread) { Item.new(1.2) }
 
   it 'can return its price, correctly formatted' do
-    expect(bread.price).to eq('£1.20')
+    expect(bread.ask_price).to eq('£1.20')
   end
 end
