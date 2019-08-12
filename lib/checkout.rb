@@ -1,6 +1,9 @@
 require_relative './item'
+require_relative './format'
 
 class Checkout
+  include Format
+
   attr_reader :items
   def initialize
     @items = []
@@ -13,10 +16,6 @@ class Checkout
   end
 
   private
-  def format_price(price)
-    sprintf("£%.2f", price)
-  end
-
   def subtotal(items)
     items.map(&:price).sum
   end
