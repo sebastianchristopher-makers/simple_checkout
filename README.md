@@ -38,9 +38,13 @@ You will discuss your approach with a coach, describing your TDD process, and wi
 ## My approach:
 
 Object-Behaviour/state table
+
 Model/diagram
+
 Feature test
+
 TDD
+
 Feature test again
 
 ### Feature test:
